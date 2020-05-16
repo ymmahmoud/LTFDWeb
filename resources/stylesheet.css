@@ -1,0 +1,26 @@
+/***********************/
+/*    Global Styles    */
+/***********************/
+
+
+/***********************/
+/*    Navbar Styles    */
+/***********************/
+
+.uk-navbar-nav>li>a{
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border-color,box-shadow;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#main-img{
+    filter: brightness(50%);
+}
+
+/* Adjusts the size and padding for the image brand */
+#navbrand{
+    padding: 10%;
+    max-height: 250px;
+    min-height: 5%;
+}
