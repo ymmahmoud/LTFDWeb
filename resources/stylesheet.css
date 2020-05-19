@@ -17,20 +17,51 @@ body{
     text-transform: uppercase;
 }
 
-#main-img {
-    filter: brightness(50%);
+.uk-navbar-nav>li.uk-active>a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.uk-navbar-nav>li>a {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: large !important;
+    color: rgb(82, 82, 82) !important;
 }
 
 /* Adjusts the size and padding for the image brand */
 #navbrand {
     padding: 10%;
-    max-height: 250px;
-    min-height: 5%;
+    max-height: 200px;
+    min-height: 100%;
 }
 
-.container {
+/***********************/
+/*    Header Styles    */
+/***********************/
+
+.uk-navbar-nav>li>a:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.cont {
     position: relative;
     min-height: 100vh;
+}
+
+.main-img{
+  background-image: url("https://s.hdnux.com/photos/01/05/51/56/18258833/11/920x920.jpg");
+  height: 100vh; 
+  filter: brightness(30%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* This class is applied to all bodies of text that should be red */
@@ -54,17 +85,10 @@ body{
 }
 
 #slash-1 {
-    background-image:
-        linear-gradient(135deg,
-            rgba(97, 0, 0, 1) 50%, rgba(0, 255, 255, 0) 50%),
-        linear-gradient(-135deg,
-            rgba(97, 0, 0, 1) 50%, rgba(0, 255, 255, 0) 50%);
-    background-position:
-        top center, top center;
-    background-size:
-        2.75rem 2.75rem, 2.75rem 2.75rem;
+    background-image: linear-gradient(135deg, rgb(97,0,0) 16px, transparent 17px), linear-gradient(-135deg, rgb(97,0,0) 16px, transparent 17px);
+    background-size: 3em 3em;
     background-repeat: repeat-x;
-    padding-bottom: 40px;
+    height: 100px;
 }
 
 footer {
