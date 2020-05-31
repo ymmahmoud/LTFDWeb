@@ -48,7 +48,7 @@ body{
 }
 
 .main-img{
-  background-image: url("https://s.hdnux.com/photos/01/05/51/56/18258833/11/920x920.jpg");
+  background-image: url("img/background.jpg");
   height: 100vh; 
   filter: brightness(30%);
   background-position: center;
