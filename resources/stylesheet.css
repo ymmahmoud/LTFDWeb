@@ -10,6 +10,11 @@ body{
 /*    Navbar Styles    */
 /***********************/
 
+/* Sets a background color for the navbar if it doesn't have the "transparent" modifier */
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: #000 !important;
+}
+
 .uk-navbar-nav>li>a {
     transition: .2s ease-in-out;
     transition-property: color, background-color, border-color, box-shadow;
@@ -125,6 +130,16 @@ linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
 linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
 background-color: #131313;
 background-size: 20px 20px;
+}
+
+.apparatus{
+    background-color:#269;
+    background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 footer {
