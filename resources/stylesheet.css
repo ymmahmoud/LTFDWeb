@@ -6,6 +6,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
+
 /***********************/
 /*    Navbar Styles    */
 /***********************/
@@ -61,6 +62,11 @@ body{
   background-size: cover;
 }
 
+/***********************/
+/*    Modal  Styles    */
+/***********************/
+
+
 .main-text{
     color: white;
     position: absolute;
@@ -114,10 +120,6 @@ body{
 
 .section{
     background-color: #242424 !important;
-}
-
-h1{
-    color: white !important;
 }
 
 .ish{

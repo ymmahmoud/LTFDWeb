@@ -60,37 +60,92 @@
     <h1>Apparatus</h1>
     <div class="container">
         <p>
-            While our members are the soul of our organization, they couldn't keep the residents of Lebanon Township safe without our top notch apparatus
+            While our members are the soul of our organization, they couldn't keep the residents of Lebanon Township
+            safe without our top notch apparatus
         </p>
         <!-- Start of Fire apparatus -->
         <div class="col-lg-6">
-            <div class="card">
-                <img class="card-img-top" src="resources/img/app/squad.jpg"
-                    alt="Lebanon Township Fire Department Squad 19">
-                <div class="card-body">
-                    <h5 class="card-title">Squad 19</h5>
-                    <p class="card-text">Squad 19 is our first due pumper. This means that 
-                        Squad 19 will be the first of our firefighting apparatus to arrive on scene for any fires, 
-                        motor vehicle crashes, or rescue operations</p>
-                    <a href="#" class="btn btn-primary">More</a>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="resources/img/app/squad.jpg"
-                    alt="Lebanon Township Fire Department Engine 19">
-                <div class="card-body">
-                    <h5 class="card-title">Engine 19</h5>
-                    <p class="card-text">Engine 19 is our second due pumper. This means that in the event of a fire,
-                        Squad 19 will be the first of our firefighting apparatus to arrive on scene</p>
-                    <a href="#" class="btn btn-primary">More</a>
-                </div>
-            </div>
-            <img src="resources/img/app/engine1.jpg" alt="Lebanon Township Fire Department Engine 19" class="w-100">
-            <img src="resources/img/app/engine1.jpg" alt="Lebanon Township Fire Department Squad 19" class="w-100">
-            <img src="resources/img/app/engine1.jpg" alt="Lebanon Township Fire Department Tac 19" class="w-100">
 
+            <div class="container col-lg-12">
+                <div class="card">
+                    <img class="card-img-top" src="resources/img/app/squad.jpg"
+                        alt="Lebanon Township Fire Department Squad 19">
+                    <div class="card-body">
+                        <h5 class="card-title">Squad 19</h5>
+                        <p class="card-text">Squad 19 is our first due pumper. This means that
+                            Squad 19 will be the first of our firefighting apparatus to arrive on scene for any fires,
+                            motor vehicle crashes, or rescue operations</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#squadmod">More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="resources/img/app/squad.jpg"
+                        alt="Lebanon Township Fire Department Engine 19">
+                    <div class="card-body">
+                        <h5 class="card-title">Engine 19</h5>
+                        <p class="card-text">Engine 19 is our second due pumper. This means that in the event of a fire,
+                            Squad 19 will be the first of our firefighting apparatus to arrive on scene</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+                <!-- <img src="resources/img/app/engine1.jpg" alt="Lebanon Township Fire Department Engine 19" class="w-100">
+            <img src="resources/img/app/engine1.jpg" alt="Lebanon Township Fire Department Squad 19" class="w-100">
+            <img src="resources/img/app/engine1.jpg" alt="Lebanon Township Fire Department Tac 19" class="w-100"> -->
+            </div>
+        </div>
+        <!-- Squad 19 modal -->
+        <div class="modal fade mx-auto" id="squadmod" tabindex="-1" role="dialog" aria-labelledby="Squad 19 model"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content mx-auto">
+                    <div class="col-lg-12">
+                        <h1 class="text-center">Squad 19</h1>
+                        <div id="carousel" class="carousel slide col-lg-8 mx-auto" data-ride="carousel" data-interval="false">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="resources/img/app/Squad19/Pump.jpg" class="d-block w-100"
+                                        alt="Pump cabinet on Squad 19">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="resources/img/app/Squad19/Tool.jpg" class="d-block w-100"
+                                        alt="Tool cabinet on Squad 19">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="resources/img/app/Squad19/Rescue.jpg" class="d-block w-100"
+                                        alt="Rescue cabinet on Squad 19">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Squad 19 is our first due pumper. This means that Squad 19 will be the first of our firefighting
+                        apparatus to arrive on scene for any fires, motor vehicle crashes, or rescue operations</p>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.4/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.4/dist/js/uikit-icons.min.js"></script>
