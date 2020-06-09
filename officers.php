@@ -4,22 +4,64 @@
 <html lang="en" class="no-js" style="overflow: scroll;">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lebanon Township Volunteer Fire Department</title>
-    <link href="Resources/stylesheet.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
-          integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.4/dist/css/uikit.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>LTFD | Officers</title>
 </head>
 
 <body>
-<?php include_once 'Resources/PHP/nav.php' ?>
+<header>
+            <div class="uk-position-top">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-center">
+                        <div class="uk-navbar-center-left">
+                            <ul class="uk-navbar-nav">
+                                <li><a href="index">Home</a></li>
+                                <li>
+                                    <a class="uk-active" href="#">About Us</a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li><a class="uk-active" href="officers">Officers</a></li>
+                                            <li><a href="apparatus">Apparatus</a></li>
+                                            <li><a href="history">History</a></li>
+                                            <li><a href="education">Education</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Forms</a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li><a href="hallrentals">Hall Rentals</a></li>
+                                            <li><a href="standby">Standby Request</a></li>
+                                            <li><a href="https://www.state.nj.us/dep/parksandforests/fire/permits.html">Burn
+                                                    Permits</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="uk-navbar-item uk-logo">
+                            <img src="resources/img/logo.png" id="navbrand"
+                                alt="Lebanon Township Fire Department Logo - Medallion" height="50" width="auto">
+                        </a>
+                        <div class="uk-navbar-center-right">
+                            <ul class="uk-navbar-nav">
+                                <li><a href="volunteer">Volunteer</a></li>
+                                <li><a href="contact">Contact</a></li>
+                                <li><a href="login">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
