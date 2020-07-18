@@ -105,7 +105,7 @@ body{
 
 /* This class is applied to all bodies of text that should be red */
 .red{
-    background-color: rgb(97, 0, 0);
+    background-color: #51141c;
     padding: 2%;
 }
 
@@ -124,21 +124,21 @@ body{
 }
 
 #tri-1 {
-    background-image: linear-gradient(135deg, rgb(97,0,0) 20px, transparent 17px), linear-gradient(-135deg, rgb(97,0,0) 20px, transparent 17px);
+    background-image: linear-gradient(135deg, #51141c 20px, transparent 17px), linear-gradient(-135deg, #51141c 20px, transparent 17px);
     background-size: 10.5em 11em;
     background-repeat: repeat-x;
     height: 100px;
 }
 
 .slash-1{
-    background: linear-gradient(178deg, #242424 50%, rgb(97,0,0) 50%);
+    background: linear-gradient(178deg, #242424 50%, #51141c 50%);
     padding-top: 70px;
     padding-bottom: 50px;
 }
 
 .slash-2{
     padding-top: 0;
-    background: linear-gradient(-178deg, rgb(97,0,0) 50%, #242424 50%);
+    background: linear-gradient(-178deg, #51141c 50%, #242424 50%);
     padding-top: 70px;
     padding-bottom: 50px;
 }
